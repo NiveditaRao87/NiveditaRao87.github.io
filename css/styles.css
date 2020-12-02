@@ -1,0 +1,372 @@
+body {
+  background-color: #3f3f44;
+  color: #d8d3cd;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p,
+li {
+  font-size: calc(10px + 1vmax);
+}
+
+a {
+  color: #b6ddd3;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #4f8a8b;
+}
+
+a:visited {
+  color: #ffc7c7;
+}
+
+strong {
+  color: white;
+}
+
+hr {
+  background-color: #d8d3cd;
+}
+
+.progress-container {
+  position: fixed;
+  width: 100%;
+  height: 5px;
+  background-color: black;
+  left: 0px;
+  top: calc(50px + 1vmax);
+}
+
+.scroll-progress {
+  width: 0px;
+  height: 5px;
+  background-color: #01c5c4;
+}
+
+main {
+  padding-bottom: 8vh;
+}
+
+.attribution {
+  font-size: 0.95rem;
+}
+/* Navigation  */
+nav {
+  background-color: rgb(0, 0, 0, 1);
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.navbar {
+  font-size: calc(10px + 1vmax);
+  height: calc(50px + 1vmax);
+}
+
+.navbar-collapse {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.socials {
+  align-self: center;
+}
+
+.socials a,
+.socials a:visited {
+  color: #d8d3cd;
+  text-decoration: none;
+}
+
+.socials a:hover {
+  font-size: calc(12px + 1vmax);
+  color: white;
+  text-decoration: none;
+}
+
+.social-icon {
+  padding-right: 5vw;
+}
+
+.main {
+  width: 100%;
+  font-size: calc(10px + 1vmax);
+}
+
+.img-container {
+  width: 100%;
+}
+
+.img-title {
+  height: 30vh;
+  object-fit: cover;
+  width: 100%;
+  max-width: 100%;
+}
+
+.notbold {
+  font-weight: normal;
+}
+
+.contact {
+  margin-top: 10vh;
+  font-size: calc(10px + 1vmax);
+}
+
+.contact-img {
+  width: 40vw;
+  border-radius: 5%;
+}
+
+.contact-text {
+  padding-top: 5vh;
+  padding-right: 10vw;
+}
+.social-links {
+  padding-right: 5vw;
+  text-decoration: none;
+  color: #d8d3cd;
+}
+
+.social-links:hover,
+.social-links:visited {
+  color: #d8d3cd;
+}
+
+/* Home page styles */
+
+.first-page {
+  background-image: url('../images/pexels-cátia-matos-1072179.jpg');
+  background-size: cover;
+  height: 70vh;
+  width: 100vw;
+  color: white;
+  display: grid;
+  grid-template-rows: 10fr 1fr;
+}
+
+.first-page .attribution {
+  padding-top: 4vh;
+  text-align: center;
+  align-self: bottom;
+}
+
+.intro {
+  font-size: 5vmax;
+  padding-top: 20vh;
+  text-align: center;
+}
+
+.me {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.skills {
+  padding-top: 7vh;
+}
+
+.skills-content {
+  padding-top: 3vh;
+  font-size: 3vh;
+}
+
+.skill-bullets {
+  font-size: calc(10px + 1vmax);
+}
+
+.experience {
+  padding-top: 7vh;
+  font-size: 3vmin;
+}
+/* About page styles*/
+
+#about {
+  padding-top: 12vh;
+}
+
+.about-text {
+  margin-top: 10vh;
+}
+.img-para-container .col-md-3 {
+  color: white;
+}
+.img-para {
+  max-width: 100%;
+  border-radius: 5%;
+  max-height: 80%;
+}
+
+/* Specific to project page */
+
+#projects {
+  padding-top: 26vh;
+}
+
+.img-project-wrapper {
+  position: relative;
+}
+
+.img-project {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border: 10px solid #555;
+  border-radius: 5%;
+}
+
+.image-desc {
+  visibility: hidden;
+  position: absolute;
+  border: 10px solid #555;
+  border-radius: 5%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: opacity 1s, visibility 1s;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #3f3f44;
+  font-size: 5vh;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.img-project-wrapper:hover .image-desc {
+  visibility: visible;
+  opacity: 1;
+}
+
+.project-nav {
+  padding-top: 10vh;
+  padding-bottom: 1vh;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(3, 20vw);
+  justify-content: space-between;
+  background-color: #3f3f44;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.img-project-dets {
+  width: 30vw;
+  border-radius: 5%;
+  border: 10px solid #555;
+  transition: transform 1s ease;
+}
+
+.img-project-dets:hover {
+  transform: scale(1.1);
+}
+
+/* .img-project-dets:hover {
+  opacity: 0.8;
+} */
+/* customise the modal */
+.img-preview {
+  width: 90vw;
+}
+
+.modal-dialog {
+  min-width: 96vw;
+}
+
+.modal-title {
+  color: black;
+  font-size: calc(10px + 2vmax);
+}
+
+.close {
+  font-size: calc(10px + 2vmax);
+}
+
+.pad-left {
+  margin-left: 1vw;
+}
+
+.pad-right {
+  margin-right: 1vw;
+}
+
+.anchor {
+  padding-top: 20vh;
+  color: white;
+  text-decoration: none;
+}
+
+.anchor:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.last-para {
+  margin-bottom: 10vh;
+}
+
+@media (min-width: 992px) {
+  .custom-container {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+
+  .social-icon {
+    padding-right: 1vw;
+  }
+  .contact-img {
+    width: 25vw;
+  }
+  /* Home page */
+  .skill-bullets {
+    font-size: 3vh;
+  }
+  .intro {
+    font-size: 5vmin;
+    padding-top: 40vh;
+  }
+  .first-page .attribution {
+    padding-top: 13vh;
+    text-align: center;
+  }
+
+  /* For project page */
+  .projects-content {
+    padding-top: 5vh;
+  }
+  #projects {
+    padding-top: 30vh;
+  }
+  .anchor {
+    padding-top: 30vh;
+  }
+  .img-preview {
+    width: 80vw;
+  }
+
+  .modal-dialog {
+    min-width: 82vw;
+  }
+
+  .modal-title {
+    color: black;
+    font-size: calc(10px + 2vmax);
+  }
+
+  .close {
+    font-size: calc(10px + 2vmax);
+  }
+}
+
+@media (max-width: 992px) {
+  h3 {
+    font-size: calc(10px + 3vmin);
+  }
+}
