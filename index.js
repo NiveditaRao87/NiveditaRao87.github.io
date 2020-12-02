@@ -2,12 +2,10 @@
 const contactDiv = `
   <div class='row'>
     <div class='col-md-6'>
-        <a name='contact' class='anchor'><h2>Get in touch!</h2></a>
+        <h2>Get in touch!</h2>
         <p class='contact-text'>Feel free to send me an <a target='_blank' href='mailto:nivedita.rao87@gmail.com'>email</a> to nivedita.rao87@gmail.com, if you are looking for a developer.
         <br/>
         <br/>
-        <a target='_blank' href='https://github.com/NiveditaRao87' class='social-links'> gitHub</a>
-        <a target='_blank' href='https://www.linkedin.com/in/niveditarrao/' class='social-links'> LinkedIn</a>
     </div>
     <div class='col-md-4'>
       <figure>
@@ -17,6 +15,8 @@ const contactDiv = `
       </figure>
     </div>
   </div>
+  <a target='_blank' href='https://github.com/NiveditaRao87' class='social-links'> gitHub</a>
+  <a target='_blank' href='https://www.linkedin.com/in/niveditarrao/' class='social-links'> LinkedIn</a>
 `
 
 $('.contact').append(contactDiv)

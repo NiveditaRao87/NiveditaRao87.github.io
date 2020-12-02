@@ -49,6 +49,14 @@ main {
   padding-bottom: 8vh;
 }
 
+footer {
+  padding-top: 5vh;
+  background-color: black;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 10fr 1fr;
+}
+
 .attribution {
   font-size: 0.95rem;
 }
@@ -310,6 +318,17 @@ nav a {
 
 .last-para {
   margin-bottom: 10vh;
+}
+
+/* Contact page */
+#contact {
+  height: 100vh;
+  background-color: black;
+  overflow: hidden;
+}
+
+#contact .contact {
+  padding-top: 10vh;
 }
 
 @media (min-width: 992px) {
