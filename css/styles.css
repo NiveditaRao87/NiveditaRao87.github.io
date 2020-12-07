@@ -157,21 +157,21 @@ nav a {
   background-image: url('../images/pexels-cátia-matos-1072179.jpg');
   background-size: cover;
   height: 70vh;
-  width: 100vw;
+  width: 100%;
   color: white;
   display: grid;
   grid-template-rows: 10fr 1fr;
 }
 
 .first-page .attribution {
-  padding-top: 4vh;
+  padding-top: 13vh;
   text-align: center;
   align-self: bottom;
 }
 
 .intro {
-  font-size: 5vmax;
-  padding-top: 20vh;
+  font-size: calc(10px + 3vmin);
+  padding-top: 30vh;
   text-align: center;
 }
 
@@ -374,7 +374,6 @@ nav a {
   }
   .intro {
     font-size: 5vmin;
-    padding-top: 40vh;
   }
   .first-page .attribution {
     padding-top: 13vh;
