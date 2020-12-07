@@ -8,10 +8,19 @@ const contactDiv = `
         <br/>
     </div>
     <div class='col-md-4'>
-      <figure aria-hidden='true'>
+      <figure>
         <img class='contact-img' 
-        src='images/debby-hudson-DR31squbFoA-unsplash.jpg' alt='a letter'/>
-        <figcaption class='attribution'>Photo by <a href='https://unsplash.com/@hudsoncrafted?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText'>Debby Hudson</a> on <a href='https://unsplash.com/s/photos/letter?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText'>Unsplash</a></figcaption>
+        src='images/debby-hudson-DR31squbFoA-unsplash.jpg' alt=''
+        />
+        <figcaption class='attribution'>Photo by <a 
+        href='https://unsplash.com/@hudsoncrafted?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText'
+        tabIndex='-1'
+        aria-label='attribution link for decorative image'
+        >Debby Hudson</a> on <a 
+        href='https://unsplash.com/s/photos/letter?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText'
+        tabIndex='1'
+        aria-label='attribution link for decorative image'
+        >Unsplash</a></figcaption>
       </figure>
     </div>
   </div>
