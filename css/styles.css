@@ -278,6 +278,8 @@ nav a {
   text-align: center;
   font-weight: bold;
   margin-bottom: 0;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 .img-project-wrapper:hover .image-desc {
