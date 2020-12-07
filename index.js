@@ -8,7 +8,7 @@ const contactDiv = `
         <br/>
     </div>
     <div class='col-md-4'>
-      <figure>
+      <figure aria-hidden='true'>
         <img class='contact-img' 
         src='images/debby-hudson-DR31squbFoA-unsplash.jpg' alt='a letter'/>
         <figcaption class='attribution'>Photo by <a href='https://unsplash.com/@hudsoncrafted?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText'>Debby Hudson</a> on <a href='https://unsplash.com/s/photos/letter?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText'>Unsplash</a></figcaption>
