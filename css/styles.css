@@ -16,16 +16,23 @@ ul {
 }
 
 a {
-  color: #b6ddd3;
   text-decoration: underline;
+  text-decoration-color: #4f8a8b;
+  color: #d8d3cd;
 }
 
 a:hover {
-  color: #4f8a8b;
+  background-color: #4f8a8b;
+  color: #d8d3cd;
 }
 
 a:visited {
-  color: #ffc7c7;
+  text-decoration-color: #ffc7c7;
+}
+
+a:visited:hover {
+  background-color: #ffc7c7;
+  color: #3f3f44;
 }
 
 strong {
@@ -77,6 +84,14 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+nav a:visited:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
 .navbar {
   font-size: calc(8px + 1vmax);
   height: calc(50px + 1vmax);
@@ -104,10 +119,11 @@ nav a {
   font-size: calc(12px + 1vmax);
   color: white;
   text-decoration: none;
+  background-color: black;
 }
 
-.social-icon {
-  padding-right: 5vw;
+.margin-right {
+  margin-right: 5vw;
 }
 
 .main {
@@ -153,8 +169,11 @@ nav a {
 }
 
 .social-links:hover,
-.social-links:visited {
+.social-links:visited,
+.social-links:visited:hover {
   color: #d8d3cd;
+  text-decoration: none;
+  background-color: black;
 }
 
 /* Home page styles */
@@ -252,6 +271,12 @@ nav a {
   position: relative;
 }
 
+.img-project-wrapper:hover,
+.img-project-wrapper:visited:hover {
+  position: relative;
+  background-color: #3f3f44;
+}
+
 .img-project {
   object-fit: cover;
   width: 100%;
@@ -311,6 +336,28 @@ nav a {
   transform: scale(1.1);
 }
 
+.git {
+  text-decoration: none;
+}
+
+a .repo {
+  text-decoration: underline;
+  text-decoration-color: #4f8a8b;
+}
+
+a:hover .repo {
+  background-color: #4f8a8b;
+}
+a:visited .repo {
+  text-decoration: underline;
+  text-decoration-color: #ffc7c7;
+}
+
+a:visited:hover .repo {
+  background-color: #ffc7c7;
+  color: #3f3f44;
+}
+
 /* Experience  */
 
 .img-exp {
@@ -355,6 +402,7 @@ nav a {
 .anchor:hover {
   color: white;
   text-decoration: none;
+  background-color: #3f3f44;
 }
 
 .last-para {
@@ -378,8 +426,8 @@ nav a {
     padding-right: 10vw;
   }
 
-  .social-icon {
-    padding-right: 1vw;
+  .margin-right {
+    margin-right: 1vw;
   }
   .contact-img {
     width: 25vw;
@@ -388,11 +436,6 @@ nav a {
   .skill-bullets li {
     font-size: 3vh;
   }
-  /* .skill-bullets li:hover {
-    font-size: 4vh;
-    font-weight: bold;
-    color: #3f3f3f;
-  } */
   .intro {
     font-size: 5vmin;
   }
